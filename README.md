@@ -1,3 +1,15 @@
-# Descsription
+### 概要
 
-Rest and tRPC comparison project.
+Rest と tRPC の比較例
+
+### アプリの起動方
+
+クライエントとサーバどちらでも以下のコマンドを順番に実行してください。
+
+```
+npm i
+```
+
+```
+npm run dev
+```
