@@ -25,14 +25,14 @@ async function main() {
   });
   console.log("newUser", newUser);
 
-  // const updateUserAge = await client.users.updateAge.mutate({
-  //   id: "1",
-  //   age: 35,
-  // });
-  // console.log("updateUserAge", updateUserAge);
+  const updateUserAge = await client.users.updateAge.mutate({
+    id: "1",
+    age: 35,
+  });
+  console.log("updateUserAge", updateUserAge);
 
-  // const allUsers = await client.users.getAll.query();
-  // console.log("allUsers", allUsers);
+  const allUsers = await client.users.getAll.query();
+  console.log("allUsers", allUsers);
 }
 
 main();
